@@ -1,5 +1,5 @@
-# Hardpass Prototype, v.1
-A Raspberry Pi Zero based WiFi Enabled Hardware Password Manager
+# Hardpass Prototype, v.2
+A Raspberry Pi Zero based WiFi Enabled Hardware Password Manager, now with a PCB.
 
 ## Currently Implemented:
  - OLED (demo)
