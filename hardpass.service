@@ -1,0 +1,11 @@
+[Unit]
+Description=Hardpass Initialisation
+DefaultDependencies=true
+
+[Service]
+Type=simple
+ExecStart=/home/pi/hardpass/init_usb.sh
+WordkingDirectory=/home/pi/
+
+[Install]
+WantedBy=local-fs.target
