@@ -515,16 +515,6 @@ F 3 "" H 5900 2000 50  0000 C CNN
 	1    5900 2000
 	1    0    0    -1  
 $EndComp
-Text Label 6050 2100 0    60   ~ 0
-OLED_CS
-Text Label 6050 2200 0    60   ~ 0
-OLED_RES
-Text Label 6050 2300 0    60   ~ 0
-OLED_DC
-Text Label 6050 2400 0    60   ~ 0
-OLED_SCK
-Text Label 6050 2500 0    60   ~ 0
-OLED_MOSI
 $Comp
 L C_Small C7
 U 1 1 58337245
