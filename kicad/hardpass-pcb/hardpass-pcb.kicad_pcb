@@ -3,9 +3,9 @@
   (general
     (links 107)
     (no_connects 7)
-    (area -0.050001 -0.050001 30.050001 65.050001)
+    (area -0.666014 -0.573 30.425001 65.655)
     (thickness 1.6)
-    (drawings 14)
+    (drawings 15)
     (tracks 547)
     (zones 0)
     (modules 37)
@@ -1554,6 +1554,9 @@
       (net 1 GND))
   )
 
+  (gr_text "hardpass 0.2.2" (at 15 61.5) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 23 30) (end 23.75 30) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 23 31) (end 23.75 31) (layer Edge.Cuts) (width 0.1))
   (gr_arc (start 7 30.5) (end 7 31) (angle 180) (layer Edge.Cuts) (width 0.1))
