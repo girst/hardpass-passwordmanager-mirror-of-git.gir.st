@@ -1468,4 +1468,6 @@ Wire Wire Line
 Connection ~ 8450 2500
 Wire Wire Line
 	8300 1950 8300 2500
+Text Notes 6400 1300 0    60   ~ 0
+possible driver:\nhttps://github.com/larytet/TDA8029
 $EndSCHEMATC
