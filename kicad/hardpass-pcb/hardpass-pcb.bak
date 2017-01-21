@@ -775,17 +775,6 @@ F 3 "" H 9700 3600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C10
-U 1 1 5880BC62
-P 8350 3600
-F 0 "C10" H 8360 3670 50  0000 L CNN
-F 1 "100pF" H 8360 3520 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206" H 8350 3600 50  0001 C CNN
-F 3 "" H 8350 3600 50  0000 C CNN
-	1    8350 3600
-	1    0    0    -1  
-$EndComp
-$Comp
 L C_Small C8
 U 1 1 5880BE78
 P 7650 3400
@@ -905,17 +894,6 @@ F 1 "180" H 8230 2760 50  0000 L CNN
 F 2 "Resistors_SMD:R_1206" H 8200 2800 50  0001 C CNN
 F 3 "" H 8200 2800 50  0000 C CNN
 	1    8200 2800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C_Small C9
-U 1 1 5882B77E
-P 8050 3200
-F 0 "C9" H 8060 3270 50  0000 L CNN
-F 1 "33pF" H 8060 3120 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206" H 8050 3200 50  0001 C CNN
-F 3 "" H 8050 3200 50  0000 C CNN
-	1    8050 3200
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1159,9 +1137,6 @@ F 3 "" H 9150 6200 50  0000 C CNN
 	1    9150 6200
 	1    0    0    -1  
 $EndComp
-Connection ~ 8150 3400
-Wire Wire Line
-	8150 3200 8150 3400
 Wire Wire Line
 	7750 3850 7750 3400
 Wire Wire Line
@@ -1404,12 +1379,6 @@ Wire Wire Line
 Wire Wire Line
 	4600 5700 4800 5700
 Wire Wire Line
-	8350 3700 8350 3850
-Connection ~ 8350 3850
-Wire Wire Line
-	8350 3500 8350 3400
-Connection ~ 8350 3400
-Wire Wire Line
 	8850 3500 8850 3400
 Connection ~ 8850 3400
 Wire Wire Line
@@ -1454,9 +1423,6 @@ Connection ~ 8600 2200
 Connection ~ 8300 2200
 Connection ~ 8300 2500
 Connection ~ 8600 2500
-Wire Wire Line
-	8800 2600 8600 2600
-Connection ~ 8600 2600
 Wire Wire Line
 	7150 2900 7550 2900
 Wire Wire Line
@@ -1529,4 +1495,9 @@ Wire Wire Line
 	7150 3000 7150 2900
 Connection ~ 7450 2900
 Connection ~ 7450 3000
+Wire Wire Line
+	8800 2600 8750 2600
+Wire Wire Line
+	8750 2600 8750 2400
+Connection ~ 8750 2400
 $EndSCHEMATC
