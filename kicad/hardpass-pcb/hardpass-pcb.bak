@@ -918,8 +918,8 @@ F 3 "" H 10000 4200 50  0000 C CNN
 	1    10000 4200
 	1    0    0    -1  
 $EndComp
-Text Notes 6250 1200 0    60   ~ 0
-http://www.nxp.com/documents/application_note/AN10207.pdf\nhttp://www.nxp.com/documents/data_sheet/TDA8029.pdf
+Text Notes 6250 1250 0    60   ~ 0
+http://www.nxp.com/documents/application_note/AN10207.pdf\nhttp://www.nxp.com/documents/application_note/AN00046.pdf\nhttp://www.nxp.com/documents/data_sheet/TDA8029.pdf
 Text Notes 7000 2000 0    60   ~ 0
 TODO: less Caps?
 $Comp
@@ -1137,6 +1137,10 @@ F 3 "" H 9150 6200 50  0000 C CNN
 	1    9150 6200
 	1    0    0    -1  
 $EndComp
+Text GLabel 9050 4600 2    60   Input ~ 0
+CARD_RX
+Text GLabel 9050 4700 2    60   Input ~ 0
+CARD_TX
 Wire Wire Line
 	7750 3850 7750 3400
 Wire Wire Line
@@ -1477,10 +1481,6 @@ Wire Wire Line
 	8450 6200 8450 4700
 Wire Wire Line
 	9150 4500 9150 6200
-Text GLabel 9050 4600 2    60   Input ~ 0
-CARD_RX
-Text GLabel 9050 4700 2    60   Input ~ 0
-CARD_TX
 Wire Notes Line
 	6150 4250 8100 4250
 Wire Notes Line
