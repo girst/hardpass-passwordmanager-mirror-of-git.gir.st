@@ -1500,4 +1500,6 @@ Wire Wire Line
 	6500 3850 7750 3850
 Wire Wire Line
 	7750 3850 7750 3400
+Text Notes 9500 5100 0    60   ~ 0
+Crystal: Ali "14.7456mhz 5032"
 $EndSCHEMATC
