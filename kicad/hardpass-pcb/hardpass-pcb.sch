@@ -1137,10 +1137,6 @@ F 3 "" H 9150 6200 50  0000 C CNN
 	1    9150 6200
 	1    0    0    -1  
 $EndComp
-Text GLabel 9050 4600 2    60   Input ~ 0
-CARD_RX
-Text GLabel 9050 4700 2    60   Input ~ 0
-CARD_TX
 Wire Wire Line
 	7750 3850 7750 3400
 Wire Wire Line
@@ -1481,6 +1477,10 @@ Wire Wire Line
 	8450 6200 8450 4700
 Wire Wire Line
 	9150 4500 9150 6200
+Text GLabel 9050 4600 2    60   Input ~ 0
+CARD_RX
+Text GLabel 9050 4700 2    60   Input ~ 0
+CARD_TX
 Wire Notes Line
 	6150 4250 8100 4250
 Wire Notes Line
@@ -1500,36 +1500,4 @@ Wire Wire Line
 Wire Wire Line
 	8750 2600 8750 2400
 Connection ~ 8750 2400
-Wire Notes Line
-	7550 3550 7900 3550
-Wire Notes Line
-	7900 3550 7900 3250
-Wire Notes Line
-	7900 3250 7550 3250
-Wire Notes Line
-	7550 3250 7550 3550
-Wire Notes Line
-	9000 3800 8700 3800
-Wire Notes Line
-	8700 3800 8700 3450
-Wire Notes Line
-	8700 3450 9000 3450
-Wire Notes Line
-	9000 3450 9000 3800
-Wire Notes Line
-	9900 3750 10300 3750
-Wire Notes Line
-	10300 3750 10300 4200
-Wire Notes Line
-	10300 4200 9900 4200
-Wire Notes Line
-	9900 4200 9900 3750
-Wire Notes Line
-	8200 1800 8700 1800
-Wire Notes Line
-	8700 1800 8700 2350
-Wire Notes Line
-	8700 2350 8200 2350
-Wire Notes Line
-	8200 2350 8200 1800
 $EndSCHEMATC
