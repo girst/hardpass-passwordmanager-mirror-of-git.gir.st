@@ -1,7 +1,7 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.6-e0-6349~53~ubuntu16.04.1)
 
   (general
-    (links 167)
+    (links 163)
     (no_connects 8)
     (area -0.050001 -0.050001 80.050001 65.050001)
     (thickness 1.6)
@@ -2222,11 +2222,6 @@
       (net 1 GND))
     (pad "" connect rect (at -8.15 1.725 180) (size 1.9 3) (layers F.Cu F.Mask)
       (net 1 GND))
-    (model /home/tobias/Desktop/30pin-hardpass/hardpass-passwordmanager/kicad/hardpass-pcb/hardpass.3dshapes/sim_holder_kicad.wrl
-      (at (xyz -0.004 0.395 0))
-      (scale (xyz 0.395 0.395 0.395))
-      (rotate (xyz 0 0 180))
-    )
   )
 
   (module Housings_QFP:LQFP-32_7x7mm_Pitch0.8mm (layer F.Cu) (tedit 54130A77) (tstamp 5880EBCF)
