@@ -14,6 +14,10 @@ adafruit-oled.pretty:
 	https://github.com/adafruit/Adafruit-128x64-Monochrome-OLED-PCB
 	Creative Commons Attribution, Share-Alike license
 	(C) 2012 Adafruit Industries
+RPi_Hat.pretty:
+	https://github.com/xesscorp/RPi_Hat.pretty
+	(C) 2015 XESS Corp.
+	Mother Project (https://github.com/xesscorp/RPi_Hat_Template) MIT Licensed
 hardpass.pretty:
 	(C) 2015/2016 github.com/girst
 	CC-BY-SA
