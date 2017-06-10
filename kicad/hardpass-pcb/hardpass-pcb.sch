@@ -447,61 +447,6 @@ F 3 "" H 4700 1850 50  0000 C CNN
 	1    4700 1850
 	1    0    0    -1  
 $EndComp
-$Comp
-L C_Small C7
-U 1 1 58337245
-P 3550 3100
-F 0 "C7" H 3600 3050 50  0000 L CNN
-F 1 "0.1µF" H 3300 3050 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206" H 6150 3100 50  0001 C CNN
-F 3 "" H 3550 3100 50  0000 C CNN
-	1    3550 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small R2
-U 1 1 583372D3
-P 3550 2900
-F 0 "R2" V 3450 2850 50  0000 L CNN
-F 1 "100k" V 3650 2800 50  0000 L CNN
-F 2 "Resistors_SMD:R_1206" H 950 2900 50  0001 C CNN
-F 3 "" H 3550 2900 50  0000 C CNN
-	1    3550 2900
-	-1   0    0    1   
-$EndComp
-$Comp
-L R_Small R3
-U 1 1 58337469
-P 3800 3000
-F 0 "R3" V 3900 3000 50  0000 L CNN
-F 1 "100k" V 3700 2950 50  0000 L CNN
-F 2 "Resistors_SMD:R_1206" V 3800 5350 50  0001 C CNN
-F 3 "" H 3800 3000 50  0000 C CNN
-	1    3800 3000
-	0    1    1    0   
-$EndComp
-$Comp
-L +3.3V #PWR010
-U 1 1 58337E9C
-P 3550 2800
-F 0 "#PWR010" H 3550 2650 50  0001 C CNN
-F 1 "+3.3V" H 3550 2940 50  0001 C CNN
-F 2 "" H 3550 2800 50  0000 C CNN
-F 3 "" H 3550 2800 50  0000 C CNN
-	1    3550 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR011
-U 1 1 58337F0D
-P 3550 3200
-F 0 "#PWR011" H 3550 2950 50  0001 C CNN
-F 1 "GND" H 3550 3050 50  0001 C CNN
-F 2 "" H 3550 3200 50  0000 C CNN
-F 3 "" H 3550 3200 50  0000 C CNN
-	1    3550 3200
-	1    0    0    -1  
-$EndComp
 Text GLabel 5950 6400 3    60   Input ~ 0
 ESP_CLK
 Text GLabel 5850 6400 3    60   Input ~ 0
@@ -1413,8 +1358,6 @@ Wire Wire Line
 	4850 2650 4950 2650
 Connection ~ 4950 2700
 Wire Wire Line
-	3700 3000 3550 3000
-Wire Wire Line
 	4600 5700 4800 5700
 Wire Wire Line
 	8850 3500 8850 3400
@@ -1536,7 +1479,7 @@ Wire Wire Line
 Connection ~ 8750 2400
 Text Notes 2300 1200 0    60   ~ 0
 Changes according to github.com/adafruit/Adafruit-128x64-OLED-Bonnet-for-Raspberry-Pi-PCB: \n * C1, C2, C5, C6: 2.2µF\n * C4: 2.2µF\n * C3: 10µF\n * Reset: APX803(1=GND, 2=OLED_RST, 3=3V3)---(OLED_RST)---10k---3V3\nOther Changes:\n * Pi OLED Software Reset GPIO18 (Pin12)
-Text GLabel 2250 1600 2    60   Input ~ 0
+Text GLabel 2350 1600 2    60   Input ~ 0
 OLED_RST
 Text GLabel 4900 2350 0    60   Input ~ 0
 OLED_RST
@@ -1593,16 +1536,6 @@ Wire Wire Line
 Text GLabel 3650 1900 3    60   Input ~ 0
 OLED_RST
 Connection ~ 3650 1850
-Text GLabel 3900 3000 3    60   Input ~ 0
-OLED_RST
-Wire Notes Line
-	3350 2600 3350 3550
-Wire Notes Line
-	3350 3550 4000 3550
-Wire Notes Line
-	4000 3550 4000 2600
-Wire Notes Line
-	4000 2600 3350 2600
 Wire Notes Line
 	3350 1350 3350 2450
 Wire Notes Line
