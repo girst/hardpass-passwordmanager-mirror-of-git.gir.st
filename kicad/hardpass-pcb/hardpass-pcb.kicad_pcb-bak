@@ -3,7 +3,7 @@
   (general
     (links 159)
     (no_connects 8)
-    (area -0.050001 -0.050001 80.050001 65.050001)
+    (area -0.666014 -1.5255 80.050001 66.22418)
     (thickness 1.6)
     (drawings 27)
     (tracks 753)
@@ -2685,7 +2685,7 @@
       (solder_mask_margin 1.725) (clearance 1.725))
   )
 
-  (gr_text "hardpass 0.2.3" (at 65.25 15) (layer B.Mask)
+  (gr_text "hardpass 0.2.2" (at 65.25 15) (layer B.Mask)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_line (start 30 62) (end 50 62) (layer Edge.Cuts) (width 0.1))
@@ -2698,7 +2698,7 @@
   (gr_line (start 53 65) (end 77 65) (angle 90) (layer Edge.Cuts) (width 0.1) (tstamp 5880E2E7))
   (gr_arc (start 77 62) (end 80 62) (angle 90) (layer Edge.Cuts) (width 0.1) (tstamp 5880E2E6))
   (gr_line (start 80 3) (end 80 62) (angle 90) (layer Edge.Cuts) (width 0.1) (tstamp 5880E2E5))
-  (gr_text "hardpass 0.2.3" (at 65 61.5) (layer F.SilkS) (tstamp 5880E2E4)
+  (gr_text "hardpass 0.2.2" (at 65 61.5) (layer F.SilkS) (tstamp 5880E2E4)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "hardpass 0.2.3" (at 15 61.5) (layer F.SilkS)
