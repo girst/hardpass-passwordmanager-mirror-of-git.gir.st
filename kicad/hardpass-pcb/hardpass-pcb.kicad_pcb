@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7-e1-6374~58~ubuntu16.04.1)
+(kicad_pcb (version 4) (host pcbnew 4.0.7-e2-6376~58~ubuntu16.04.1)
 
   (general
     (links 163)
@@ -390,7 +390,7 @@
       (net 1 GND))
     (pad "" connect rect (at -8.15 1.725 180) (size 1.9 3) (layers F.Cu F.Mask)
       (net 1 GND))
-    (model /home/tobias/Desktop/hardpass-passwordmanager/kicad/hardpass-pcb/hardpass.3dshapes/sim_holder_kicad.wrl
+    (model ${KIPRJMOD}/hardpass.3dshapes/sim_holder_kicad.wrl
       (at (xyz -0.004 0.395 0))
       (scale (xyz 0.395 0.395 0.395))
       (rotate (xyz 0 0 180))
@@ -1530,7 +1530,7 @@
       (net 56 "Net-(U2-Pad21)"))
     (pad 22 smd oval (at 14 0) (size 2.5 1.1) (drill (offset 0.7 0)) (layers B.Cu B.Paste B.Mask)
       (net 57 "Net-(U2-Pad22)"))
-    (model /home/tobias/Desktop/hardpass-passwordmanager/kicad/hardpass-pcb/kicad-ESP8266/ESP8266.3dshapes/ESP-12.wrl
+    (model ${KIPRJMOD}/kicad-ESP8266/ESP8266.3dshapes/ESP-12.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
