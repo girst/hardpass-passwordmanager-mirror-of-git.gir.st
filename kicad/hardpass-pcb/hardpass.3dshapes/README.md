@@ -14,7 +14,7 @@ project.
    3D model (C) 2017 Tobias Girstmair, CC-BY-SA
     * `linkconn_sim_holder.fcstd` -- original FreeCAD model
     * `sim_holder.stl` -- FreeCad export
-    * `sim_holder_kicad.wrl` -- colorized model (Wings3D)
+    * `sim_holder_kicad.wrl` -- colorized model (export)
 
  * generic .96 inch SSD1306 OLED:  
    3D model initially created by Joe Su (Joesuzurg on thingiverse.com).
@@ -22,5 +22,6 @@ project.
    Link to original: https://www.thingiverse.com/thing:1657885
    Model has been stripped of the PCB and colored by Tobias Girstmair. 
     * `monitor_Tinyscreen.zip` -- original model by Joesuzurg
-    * `ssd1306_nopcb.stl` -- model with PCB vertexes removed
-    * `ssd1306.wrl` -- colorized model (Wings3D)
+    * `ssd1306.blend` -- model with PCB vertexes removed; flatflex modeled
+    * `ssd1306.wings` -- colorized model (Wings3D)
+    * `ssd1306.wrl` -- colorized model (export)
