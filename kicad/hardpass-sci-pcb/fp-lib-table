@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name hardpass)(type KiCad)(uri ${KIPRJMOD}/hardpass.pretty)(options "")(descr "Hardpass specific stuff"))
+  (lib (name ESP-modules)(type KiCad)(uri ${KIPRJMOD}/kicad-ESP8266/ESP8266.pretty)(options "")(descr ""))
+  (lib (name adafruit-oled)(type KiCad)(uri "$(KIPRJMOD)/adafruit-oled.pretty")(options "")(descr ""))
+  (lib (name RPi_Hat)(type KiCad)(uri "$(KIPRJMOD)/RPi_Hat.pretty")(options "")(descr ""))
+)
