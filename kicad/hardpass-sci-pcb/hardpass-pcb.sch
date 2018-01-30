@@ -1332,11 +1332,11 @@ Connection ~ 10050 1950
 Wire Notes Line
 	10500 1600 10500 2200
 Wire Notes Line
-	10500 2200 10900 2200
+	10100 2200 10900 2200
 Wire Notes Line
-	10900 2200 10900 1600
+	10900 1600 10900 2200
 Wire Notes Line
-	10900 1600 10500 1600
+	10100 1600 10900 1600
 Text Notes 10500 1600 0    60   ~ 0
 optional
 Wire Notes Line
@@ -1347,4 +1347,8 @@ Wire Wire Line
 	8650 3350 8650 3550
 Text Notes 9300 3950 0    60   ~ 0
 CTS/RTS on the Pi: \nhttps://github.com/mholling/rpirtscts
+Wire Notes Line
+	10100 1600 10100 2200
+Text Notes 10200 1700 0    60   ~ 0
+either-or
 $EndSCHEMATC

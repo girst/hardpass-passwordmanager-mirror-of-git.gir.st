@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/tobias/Desktop/hardpass-sec1210/hardpass-passwordmanager/kicad/hardpass-sci-pcb/hardpass-pcb.sch)
-    (date "Son 28 Jän 2018 23:30:43 CET")
+    (date "Mon 29 Jän 2018 12:14:54 CET")
     (tool "Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -519,12 +519,12 @@
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive)))))
   (libraries
-    (library (logical ESP8266)
-      (uri kicad-ESP8266/ESP8266.lib))
-    (library (logical sec1210)
-      (uri /home/tobias/Desktop/hardpass-sec1210/sec1210.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
+    (library (logical sec1210)
+      (uri /home/tobias/Desktop/hardpass-sec1210/sec1210.lib))
+    (library (logical ESP8266)
+      (uri kicad-ESP8266/ESP8266.lib))
     (library (logical hardpass-pcb-cache)
       (uri /home/tobias/Desktop/hardpass-sec1210/hardpass-passwordmanager/kicad/hardpass-sci-pcb/hardpass-pcb-cache.lib)))
   (nets

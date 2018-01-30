@@ -1345,4 +1345,6 @@ Wire Notes Line
 	6200 6450 11150 6450
 Wire Wire Line
 	8650 3350 8650 3550
+Text Notes 9300 3950 0    60   ~ 0
+CTS/RTS on the Pi: \nhttps://github.com/mholling/rpirtscts
 $EndSCHEMATC

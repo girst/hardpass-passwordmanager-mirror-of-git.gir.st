@@ -1,0 +1,7 @@
+schematic: http://ww1.microchip.com/downloads/en/DeviceDoc/EVB%20SEC1210%20Evalutation%20Board%20Schematic.pdf
+
+datasheet: http://ww1.microchip.com/downloads/en/DeviceDoc/00001561C.pdf
+
+evalboard. https://www.microchip.com/DevelopmentTools/ProductDetails.aspx?PartNO=EVB-SEC1210
+
+product page. https://www.microchip.com/wwwproducts/en/SEC1210
