@@ -29,5 +29,6 @@ project.
  * Alps SKQGAF 5.2mm tactile switch:
    3D Model (STEP-File) taken from Alps Electric Co., LTD:
    http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGAFE010.html
-    * `SKQGAF.STEP` -- original (C) Alps, LTD
-    * `5.2mm-tact.wrl` -- wrl export from FreeCAD
+    * `SKQGAF.STEP` -- original false-colored model (C) Alps, LTD
+    * `SKQGAF-realcolors.STEP` -- realistic colors by Tobias Girstmair
+    * `5.2mm-tact.wrl` -- wrl export from FreeCAD of `SKQGAF-realcolors.STEP`
