@@ -25,3 +25,9 @@ project.
     * `ssd1306.blend` -- model with PCB vertexes removed; flatflex modeled
     * `ssd1306.wings` -- colorized model (Wings3D)
     * `ssd1306.wrl` -- colorized model (export)
+
+ * Alps SKQGAF 5.2mm tactile switch:
+   3D Model (STEP-File) taken from Alps Electric Co., LTD:
+   http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGAFE010.html
+    * `SKQGAF.STEP` -- original (C) Alps, LTD
+    * `5.2mm-tact.wrl` -- wrl export from FreeCAD
