@@ -516,7 +516,7 @@ U 1 1 58700E5C
 P 9850 3700
 F 0 "P2" H 9850 5250 50  0000 C CNN
 F 1 "OLED_I2C" V 9950 3700 50  0000 C CNN
-F 2 "adafruit-oled:UG-2864HSWEG01_0.96IN_WRAPAROUND" V 10050 3700 50  0000 C CNN
+F 2 "UG-2864HSWEG01_0.96IN_WRAPAROUND" V 10050 3700 50  0000 C CNN
 F 3 "" H 9850 3700 50  0000 C CNN
 	1    9850 3700
 	1    0    0    -1  
@@ -810,8 +810,8 @@ Text Notes 1900 1750 2    60   ~ 0
 reserved for\nhardpass-sci
 NoConn ~ 2000 3050
 NoConn ~ 2000 3150
-Text Notes 4350 1700 0    60   ~ 0
-<--Wifi Pants: pin 27
+Text Notes 4350 1800 0    60   ~ 0
+<--Wifi Pants: pin 27\n     (requires modconfig)
 NoConn ~ 3800 2150
 NoConn ~ 3800 2250
 NoConn ~ 3800 2350
@@ -825,4 +825,14 @@ NoConn ~ 9650 4350
 NoConn ~ 9650 4450
 NoConn ~ 9650 4550
 NoConn ~ 9650 4650
+Text Notes 1900 3150 2    60   ~ 0
+removed due to -->\noverlap with OLED flex
+Wire Notes Line
+	3800 2100 3850 2100
+Wire Notes Line
+	3850 2100 3850 2600
+Wire Notes Line
+	3850 2600 3800 2600
+Text Notes 3900 2400 0    60   ~ 0
+future expansion?
 $EndSCHEMATC

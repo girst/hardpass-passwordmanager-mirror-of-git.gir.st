@@ -344,7 +344,7 @@ U 1 1 57715A24
 P 2300 7400
 F 0 "SW13" H 2450 7510 50  0000 C CNN
 F 1 "SHUTDN" H 2300 7320 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_SPST_SKQG" H 2250 7150 50  0000 C CNN
+F 2 "" H 2250 7150 50  0000 C CNN
 F 3 "" H 2300 7400 50  0000 C CNN
 	1    2300 7400
 	1    0    0    -1  
@@ -810,8 +810,8 @@ Text Notes 1900 1750 2    60   ~ 0
 reserved for\nhardpass-sci
 NoConn ~ 2000 3050
 NoConn ~ 2000 3150
-Text Notes 4350 1700 0    60   ~ 0
-<--Wifi Pants: pin 27
+Text Notes 4350 1800 0    60   ~ 0
+<--Wifi Pants: pin 27\n     (requires modconfig)
 NoConn ~ 3800 2150
 NoConn ~ 3800 2250
 NoConn ~ 3800 2350
@@ -825,4 +825,24 @@ NoConn ~ 9650 4350
 NoConn ~ 9650 4450
 NoConn ~ 9650 4550
 NoConn ~ 9650 4650
+Text Notes 1900 3150 2    60   ~ 0
+removed due to -->\noverlap with OLED flex
+Wire Notes Line
+	3800 2100 3850 2100
+Wire Notes Line
+	3850 2100 3850 2600
+Wire Notes Line
+	3850 2600 3800 2600
+Text Notes 3900 2400 0    60   ~ 0
+future expansion?
+Wire Notes Line
+	1950 7150 1950 7650
+Wire Notes Line
+	1950 7650 2800 7650
+Wire Notes Line
+	2800 7650 2800 7150
+Wire Notes Line
+	2800 7150 1950 7150
+Text Notes 1850 7100 0    60   ~ 0
+TODO: Switch Footprint!
 $EndSCHEMATC
