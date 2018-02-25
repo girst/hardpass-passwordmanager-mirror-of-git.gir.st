@@ -36,8 +36,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Hardpass & Hardpass-SCI PCBs"
-Date "2016-04-27"
+Title "Hardpass-SCI"
+Date "2018-02-10"
 Rev "1"
 Comp "gir.st / isticktoit.net"
 Comment1 ""
